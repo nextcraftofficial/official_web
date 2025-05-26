@@ -1,127 +1,53 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NextCraft</title>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-+sHEkZ4QkWDbxsqCq8+q2e3duAsGA3HljXZ7PAv7O5zlxDKjK2HGHZQxx/8Z2sMwA5x2YgT5E2yKfA9qGOK7iw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-    body {
-      margin: 0;
-      padding: 0;
-      background: linear-gradient(135deg, #1e1e2f, #28283d);
-      font-family: 'Rubik', sans-serif;
-      color: #e6e6e6;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      text-align: center;
-      overflow: hidden;
-    }
-    .glow {
-      text-shadow: 0 0 10px #00ffe0, 0 0 20px #00ffe0, 0 0 30px #00ffe0;
-    }
-    img.logo {
-      max-width: 280px;
-      height: auto;
-      animation: float 4s ease-in-out infinite;
-    }
-    @keyframes float {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-10px); }
-    }
-    h1 {
-      font-size: 2rem;
-      margin-top: 20px;
-      animation: fadeIn 1.5s ease-in-out;
-    }
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(10px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-    .info {
-      margin-top: 20px;
-      font-size: 1.1rem;
-      line-height: 1.6;
-      border: 2px solid #5865F2;
-      padding: 20px 30px;
-      border-radius: 12px;
-      background-color: #2a2a3c;
-      box-shadow: 0 0 15px #5865F2;
-      animation: fadeIn 2s ease-in-out;
-    }
-    .buttons {
-      margin-top: 20px;
-    }
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      padding: 12px 26px;
-      border-radius: 10px;
-      font-weight: 600;
-      text-decoration: none;
-      margin: 10px 5px;
-      font-size: 1rem;
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-    .btn-group {
-      background-color: #25D366;
-      color: white;
-      box-shadow: 0 0 12px #25D366;
-    }
-    .btn-group:hover {
-      background-color: #1da851;
-      transform: scale(1.05);
-      box-shadow: 0 0 18px #1da851;
-    }
-    .btn-group i {
-      margin-right: 8px;
-      font-size: 1.2rem;
-    }
-    .btn-buy {
-      background-color: #ff9800;
-      color: white;
-      box-shadow: 0 0 12px #ff9800;
-    }
-    .btn-buy:hover {
-      background-color: #e68900;
-      transform: scale(1.05);
-      box-shadow: 0 0 18px #e68900;
-    }
-    .btn-buy i {
-      margin-right: 8px;
-      font-size: 1.2rem;
-    }
-    footer {
-      position: absolute;
-      bottom: 15px;
-      font-size: 0.85rem;
-      color: #aaa;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NextCraft - Server Minecraft Indonesia</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-  <img src="logo.png" alt="NextCraft Logo" class="logo" />
-  <h1 class="glow">Survival 1.21 | No Pay to Win | Discord Aktif</h1>
-  <div class="info">
-    <div><strong>IP JAVA/BED:</strong> play.nextcrafts.xyz</div>
-    <div><strong>PORT:</strong> 25544</div>
-    <div class="buttons">
-      <a href="https://chat.whatsapp.com/F49yFaOht6E3i3VNVxXz2J" class="btn btn-group" target="_blank">
-        <i class="fab fa-whatsapp"></i>Join Group
-      </a>
-      <a href="https://wa.me/6282287427140" class="btn btn-buy" target="_blank">
-        <i class="fas fa-shopping-cart"></i>Buy Rank
-      </a>
+<body class="bg-gray-900 text-white font-sans">
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center p-5 bg-gray-800 shadow-md">
+    <h1 class="text-3xl font-bold text-green-400">NextCraft</h1>
+    <a href="#join" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">Bergabung Sekarang</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 bg-gradient-to-b from-gray-900 to-black">
+    <h2 class="text-4xl md:text-5xl font-bold mb-4">Selamat Datang di NextCraft</h2>
+    <p class="text-lg text-gray-300 mb-6">Server Minecraft survival + community terbaik Indonesia!</p>
+    <a id="join" href="minecraft://play.nextcraft.id" class="bg-green-500 hover:bg-green-600 px-6 py-3 rounded text-white font-semibold">Join Sekarang</a>
+  </section>
+
+  <!-- Fitur -->
+  <section class="py-16 px-6 md:px-20 bg-gray-800">
+    <h3 class="text-3xl font-bold text-center mb-10">Fitur Utama</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+      <div>
+        <h4 class="text-xl font-bold text-green-400">Survival Seru</h4>
+        <p class="text-gray-300">Main bareng teman, build base, dan lawan boss bareng!</p>
+      </div>
+      <div>
+        <h4 class="text-xl font-bold text-green-400">Anti Lag</h4>
+        <p class="text-gray-300">Server stabil & cepat tanpa lag yang ganggu!</p>
+      </div>
+      <div>
+        <h4 class="text-xl font-bold text-green-400">Komunitas Aktif</h4>
+        <p class="text-gray-300">Gabung Discord dan ngobrol bareng player lain!</p>
+      </div>
     </div>
-  </div>
-  <footer>
+  </section>
+
+  <!-- Kontak -->
+  <section class="py-10 bg-gray-900 text-center">
+    <h3 class="text-2xl font-bold mb-4">Hubungi Kami</h3>
+    <p>IP: <span class="text-green-400">play.nextcraft.id</span></p>
+    <p>Discord: <a href="https://discord.gg/nextcraft" class="text-blue-400 underline">discord.gg/nextcraft</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 text-center bg-gray-800 text-gray-400 text-sm">
     &copy; 2025 NextCraft. All rights reserved.
   </footer>
 </body>
