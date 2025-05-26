@@ -24,12 +24,18 @@
   <p class="text-center text-gray-300 fade-in mb-6 max-w-xs">Server Minecraft survival + komunitas terbaik Indonesia!</p>
 
   <!-- Tombol Join -->
-  <a href="minecraft://play.nextcraft.id" class="fade-in bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full text-lg shadow-md mb-3 transition">
+  <button onclick="document.getElementById('ipbox').classList.remove('hidden')" class="fade-in bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full text-lg shadow-md mb-3 transition">
     Main Sekarang
-  </a>
+  </button>
 
-  <!-- Discord -->
-  <a href="https://discord.gg/nextcraft" class="fade-in text-blue-400 underline text-sm">Gabung Discord</a>
+  <!-- IP Box -->
+  <div id="ipbox" class="hidden bg-gray-800 text-center p-4 rounded-lg shadow-md fade-in mb-4">
+    <p class="text-white font-semibold">IP: <span class="text-green-400">play.nextcrafts.xyz</span></p>
+    <p class="text-white font-semibold">Port: <span class="text-green-400">25544</span></p>
+  </div>
+
+  <!-- Komunitas -->
+  <a href="https://chat.whatsapp.com/F49yFaOht6E3i3VNVxXz2J" class="fade-in text-blue-400 underline text-sm">Gabung Komunitas</a>
 
   <!-- Footer -->
   <footer class="text-gray-500 text-xs text-center mt-10 fade-in">
