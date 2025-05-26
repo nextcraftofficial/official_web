@@ -9,6 +9,8 @@
   <style>
     body {
       font-family: 'Press Start 2P', cursive;
+      background: url('https://wallpapercave.com/wp/wp2757874.jpg') no-repeat center center fixed;
+      background-size: cover;
     }
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(20px); }
@@ -17,32 +19,27 @@
     .fade-in {
       animation: fadeIn 1s ease-out forwards;
     }
+    .bg-overlay {
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 1rem;
+    }
   </style>
 </head>
-<body class="bg-gradient-to-b from-gray-900 to-black text-white flex flex-col items-center justify-center min-h-screen p-6">
-  <!-- Logo -->
-  <img src="logo.png" alt="NextCraft Logo" class="w-40 h-auto fade-in mb-6 drop-shadow-lg" />
-
-  <!-- Judul -->
-  <h1 class="text-xl text-center mb-4 fade-in text-yellow-400">Selamat Datang di NextCraft</h1>
-  <p class="text-center text-gray-300 fade-in mb-6 max-w-xs text-sm">Server Minecraft survival + komunitas terbaik Indonesia!</p>
-
-  <!-- Tombol Join -->
-  <button onclick="document.getElementById('ipbox').classList.remove('hidden')" class="fade-in bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded text-sm shadow-md mb-3 transition">
-    Main Sekarang
-  </button>
-
-  <!-- IP Box -->
-  <div id="ipbox" class="hidden bg-gray-800 text-center p-4 rounded-lg shadow-md fade-in mb-4 text-xs">
-    <p class="text-white font-semibold">IP: <span class="text-green-400">play.nextcrafts.xyz</span></p>
-    <p class="text-white font-semibold">Port: <span class="text-green-400">25544</span></p>
+<body class="text-white flex flex-col items-center justify-center min-h-screen p-6">
+  <div class="bg-overlay p-6 flex flex-col items-center">
+    <img src="logo.png" alt="NextCraft Logo" class="w-40 h-auto fade-in mb-6 drop-shadow-lg" />
+    <h1 class="text-xl text-center mb-4 fade-in text-yellow-400">Selamat Datang di NextCraft</h1>
+    <p class="text-center text-gray-300 fade-in mb-6 max-w-xs text-sm">Server Minecraft survival + komunitas terbaik Indonesia!</p>
+    <button onclick="document.getElementById('ipbox').classList.remove('hidden')" class="fade-in bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded text-sm shadow-md mb-3 transition">
+      Main Sekarang
+    </button>
+    <div id="ipbox" class="hidden bg-gray-800 text-center p-4 rounded-lg shadow-md fade-in mb-4 text-xs">
+      <p class="text-white font-semibold">IP: <span class="text-green-400">play.nextcrafts.xyz</span></p>
+      <p class="text-white font-semibold">Port: <span class="text-green-400">25544</span></p>
+    </div>
+    <a href="https://chat.whatsapp.com/F49yFaOht6E3i3VNVxXz2J" class="fade-in text-blue-400 underline text-xs">Gabung Komunitas</a>
   </div>
-
-  <!-- Komunitas -->
-  <a href="https://chat.whatsapp.com/F49yFaOht6E3i3VNVxXz2J" class="fade-in text-blue-400 underline text-xs">Gabung Komunitas</a>
-
-  <!-- Footer -->
-  <footer class="text-gray-500 text-xxs text-center mt-10 fade-in">
+  <footer class="text-gray-300 text-xxs text-center mt-10 fade-in">
     &copy; 2025 NextCraft. All rights reserved.
   </footer>
 </body>
