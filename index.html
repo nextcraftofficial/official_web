@@ -1,53 +1,52 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NextCraft - Server Minecraft Indonesia</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NextCraft - Minecraft Server</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-900 text-white font-sans">
-  <!-- Navbar -->
-  <nav class="flex justify-between items-center p-5 bg-gray-800 shadow-md">
+<body class="bg-gray-900 text-white">
+  <!-- Header -->
+  <header class="text-center p-6 bg-gray-800">
     <h1 class="text-3xl font-bold text-green-400">NextCraft</h1>
-    <a href="#join" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">Bergabung Sekarang</a>
-  </nav>
+    <p class="text-sm text-gray-300">Server Minecraft Survival Indonesia</p>
+  </header>
 
-  <!-- Hero Section -->
-  <section class="text-center py-20 bg-gradient-to-b from-gray-900 to-black">
-    <h2 class="text-4xl md:text-5xl font-bold mb-4">Selamat Datang di NextCraft</h2>
-    <p class="text-lg text-gray-300 mb-6">Server Minecraft survival + community terbaik Indonesia!</p>
-    <a id="join" href="minecraft://play.nextcraft.id" class="bg-green-500 hover:bg-green-600 px-6 py-3 rounded text-white font-semibold">Join Sekarang</a>
+  <!-- Join Now -->
+  <section class="flex flex-col items-center text-center p-8">
+    <h2 class="text-2xl font-bold mb-2">Ayo Gabung Sekarang!</h2>
+    <p class="text-gray-400 mb-4">IP: <span class="text-green-400">play.nextcraft.id</span></p>
+    <a href="minecraft://play.nextcraft.id" class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg shadow-md transition">Main Sekarang</a>
   </section>
 
   <!-- Fitur -->
-  <section class="py-16 px-6 md:px-20 bg-gray-800">
-    <h3 class="text-3xl font-bold text-center mb-10">Fitur Utama</h3>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-      <div>
-        <h4 class="text-xl font-bold text-green-400">Survival Seru</h4>
-        <p class="text-gray-300">Main bareng teman, build base, dan lawan boss bareng!</p>
+  <section class="bg-gray-800 py-8 px-6">
+    <h3 class="text-xl font-bold text-center text-green-400 mb-6">Fitur Utama</h3>
+    <div class="space-y-4">
+      <div class="bg-gray-700 p-4 rounded-lg">
+        <h4 class="font-semibold">Survival + Event</h4>
+        <p class="text-sm text-gray-300">Seru dan banyak event bareng komunitas!</p>
       </div>
-      <div>
-        <h4 class="text-xl font-bold text-green-400">Anti Lag</h4>
-        <p class="text-gray-300">Server stabil & cepat tanpa lag yang ganggu!</p>
+      <div class="bg-gray-700 p-4 rounded-lg">
+        <h4 class="font-semibold">Anti Lag</h4>
+        <p class="text-sm text-gray-300">Server stabil & lancar buat semua player!</p>
       </div>
-      <div>
-        <h4 class="text-xl font-bold text-green-400">Komunitas Aktif</h4>
-        <p class="text-gray-300">Gabung Discord dan ngobrol bareng player lain!</p>
+      <div class="bg-gray-700 p-4 rounded-lg">
+        <h4 class="font-semibold">Support 24/7</h4>
+        <p class="text-sm text-gray-300">Admin siap bantu kapan aja di Discord!</p>
       </div>
     </div>
   </section>
 
   <!-- Kontak -->
-  <section class="py-10 bg-gray-900 text-center">
-    <h3 class="text-2xl font-bold mb-4">Hubungi Kami</h3>
-    <p>IP: <span class="text-green-400">play.nextcraft.id</span></p>
+  <section class="py-6 text-center">
+    <h3 class="text-lg font-bold mb-2">Hubungi Kami</h3>
     <p>Discord: <a href="https://discord.gg/nextcraft" class="text-blue-400 underline">discord.gg/nextcraft</a></p>
   </section>
 
   <!-- Footer -->
-  <footer class="py-4 text-center bg-gray-800 text-gray-400 text-sm">
+  <footer class="text-center text-xs text-gray-500 py-4 bg-gray-800">
     &copy; 2025 NextCraft. All rights reserved.
   </footer>
 </body>
