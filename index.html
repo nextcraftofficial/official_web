@@ -2,48 +2,117 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>NextCraft - Minecraft Server</title>
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NextCraft</title>
+  <script src="https://cdn.tailwindcss.com"></script>
   <style>
     body {
-      font-family: 'Press Start 2P', cursive;
+      background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+      overflow-x: hidden;
     }
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
+
+    .stars {
+      width: 2px;
+      height: 2px;
+      background: white;
+      box-shadow: 1000px 200px white, 200px 800px white, 400px 400px white,
+                  600px 100px white, 700px 300px white, 800px 600px white,
+                  300px 500px white, 500px 700px white, 900px 900px white;
+      animation: moveStars 50s linear infinite;
     }
-    .fade-in {
-      animation: fadeIn 1s ease-out forwards;
+
+    @keyframes moveStars {
+      from { transform: translateY(0); }
+      to { transform: translateY(-2000px); }
+    }
+
+    .hidden-mobile { display: none; }
+    @media (min-width: 768px) {
+      .hidden-mobile { display: flex; }
     }
   </style>
 </head>
-<body class="bg-gradient-to-b from-gray-900 to-black text-white flex flex-col items-center justify-center min-h-screen p-6">
-  <!-- Logo -->
-  <img src="logo.png" alt="NextCraft Logo" class="w-40 h-auto fade-in mb-6 drop-shadow-lg" />
+<body class="text-white font-sans">
 
-  <!-- Judul -->
-  <h1 class="text-xl text-center mb-4 fade-in text-yellow-400">Selamat Datang di NextCraft</h1>
-  <p class="text-center text-gray-300 fade-in mb-6 max-w-xs text-sm">Server Minecraft survival + komunitas terbaik Indonesia!</p>
+  <div class="absolute w-full h-full z-0 stars"></div>
 
-  <!-- Tombol Join -->
-  <button onclick="document.getElementById('ipbox').classList.remove('hidden')" class="fade-in bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded text-sm shadow-md mb-3 transition">
-    Main Sekarang
-  </button>
+  <header class="relative z-10 flex items-center justify-between p-4 bg-black/70">
+    <div class="flex items-center gap-3 text-2xl font-bold">
+      <button onclick="toggleMenu()" class="md:hidden">☰</button>
+      NextCraft
+    </div>
+    <nav id="menu" class="hidden-mobile flex gap-6 text-lg">
+      <a href="#" class="hover:underline">Beranda</a>
+      <a href="#statistik" class="hover:underline">Statistik</a>
+      <a href="https://chat.whatsapp.com/F49yFaOht6E3i3VNVxXz2J" target="_blank" class="hover:underline text-green-400 font-bold">Grup WA</a>
+    </nav>
+  </header>
 
-  <!-- IP Box -->
-  <div id="ipbox" class="hidden bg-gray-800 text-center p-4 rounded-lg shadow-md fade-in mb-4 text-xs">
-    <p class="text-white font-semibold">IP: <span class="text-green-400">play.nextcrafts.xyz</span></p>
-    <p class="text-white font-semibold">Port: <span class="text-green-400">25544</span></p>
+  <div id="mobileMenu" class="md:hidden hidden p-4 bg-black/80 space-y-2 z-10 relative">
+    <a href="#" class="block">Beranda</a>
+    <a href="#statistik" class="block">Statistik</a>
+    <a href="https://chat.whatsapp.com/F49yFaOht6E3i3VNVxXz2J" class="block text-green-400 font-bold">Grup WA</a>
   </div>
 
-  <!-- Komunitas -->
-  <a href="https://chat.whatsapp.com/F49yFaOht6E3i3VNVxXz2J" class="fade-in text-blue-400 underline text-xs">Gabung Komunitas</a>
+  <main class="relative z-10 flex flex-col items-center justify-center py-20 px-4 text-center space-y-10">
+    <h1 class="text-4xl md:text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
+      Selamat Datang di NextCraft
+    </h1>
 
-  <!-- Footer -->
-  <footer class="text-gray-500 text-xxs text-center mt-10 fade-in">
-    &copy; 2025 NextCraft. All rights reserved.
-  </footer>
+    <div id="registerForm" class="bg-zinc-900 p-6 rounded-xl border border-zinc-700 w-full max-w-md space-y-4">
+      <h2 class="text-2xl font-bold">Daftar Akun</h2>
+      <input type="text" id="username" placeholder="Masukkan Nama Minecraft"
+        class="w-full p-2 rounded bg-zinc-800 border border-zinc-600 text-white" />
+      <button onclick="register()" class="w-full p-2 bg-purple-600 hover:bg-purple-700 rounded font-semibold">
+        Daftar
+      </button>
+    </div>
+
+    <div id="dashboard" class="hidden bg-zinc-900 p-6 rounded-xl border border-zinc-700 w-full max-w-md space-y-4">
+      <h2 class="text-2xl font-bold">Halo, <span id="userDisplay"></span>!</h2>
+      <p>Selamat datang di dashboard NextCraft.</p>
+
+      <section id="statistik" class="bg-zinc-800 p-4 rounded-lg text-left space-y-2">
+        <h3 class="text-lg font-bold">Statistik Server</h3>
+        <p>Status: <span class="text-green-400 font-semibold">Online</span></p>
+        <p>Player Online: <span id="playerCount" class="font-semibold">3</span></p>
+      </section>
+
+      <section class="bg-zinc-800 p-4 rounded-lg text-left space-y-2">
+        <h3 class="text-lg font-bold">Player Aktif</h3>
+        <ul class="list-disc list-inside">
+          <li>RizkiTheGod</li>
+          <li>SasukeMC</li>
+          <li>NarutoUwU</li>
+        </ul>
+      </section>
+
+      <button onclick="logout()" class="w-full p-2 bg-red-600 hover:bg-red-700 rounded font-semibold">
+        Keluar
+      </button>
+    </div>
+  </main>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('mobileMenu');
+      menu.classList.toggle('hidden');
+    }
+
+    function register() {
+      const name = document.getElementById('username').value.trim();
+      if (name !== "") {
+        document.getElementById('registerForm').style.display = 'none';
+        document.getElementById('dashboard').style.display = 'block';
+        document.getElementById('userDisplay').textContent = name;
+      }
+    }
+
+    function logout() {
+      document.getElementById('registerForm').style.display = 'block';
+      document.getElementById('dashboard').style.display = 'none';
+      document.getElementById('username').value = '';
+    }
+  </script>
 </body>
 </html>
