@@ -1,0 +1,360 @@
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
+body { margin:0; padding:0; font-family:'Segoe UI'; background:#0e0e0e; color:white; overflow-x:hidden; }
+.header { text-align:center; padding:2rem 1rem; background:linear-gradient(135deg,#111,#222); box-shadow:0 5px 15px rgba(255,255,0,0.2); }
+.logo { width:100px; animation:glow 2s infinite alternate; }
+h1 { font-size:2.5rem; color:#ffcc00; text-shadow:0 0 15px #ffcc00; }
+p { font-size:1rem; color:#ddd; }
+.about, .how-to-join, .register, .status, .contact { padding:2rem 1rem; margin:1rem auto; max-width:500px; background:#1a1a1a; border-radius:10px; box-shadow:0 0 10px rgba(255,255,255,0.05); }
+.about h2, .how-to-join h2, .register h2, .status h2, .contact h2 { color:#ffcc00; }
+form input[type='text'] { width:90%; padding:1rem; margin:1rem 0; border:none; border-radius:10px; font-size:1rem; }
+form button { padding:1rem; width:95%; background:linear-gradient(45deg,#ffaa00,#ff5500); color:white; font-weight:bold; border:none; border-radius:12px; box-shadow:0 0 15px #ffaa00; cursor:pointer; }
+.wa-button { display:inline-block; padding:1rem 2rem; background:#25D366; color:white; text-decoration:none; border-radius:12px; font-weight:bold; box-shadow:0 0 15px #25D366; }
+footer { text-align:center; padding:1rem; font-size:0.9rem; background:#111; }
+@keyframes glow { from { filter:drop-shadow(0 0 5px #ffcc00); } to { filter:drop-shadow(0 0 20px #ffff00); } }
